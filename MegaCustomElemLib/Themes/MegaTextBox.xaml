@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+
+    <LinearGradientBrush StartPoint="2,0" EndPoint="0,0" x:Key="backColor">
+        <GradientStop Offset="0" Color="#00CBF3" />
+        <GradientStop Offset="1" Color="#0031F3" />
+    </LinearGradientBrush>
+    <Style TargetType="TextBox" x:Key="MegaTextBox">
+        <Setter Property="Background" Value="{StaticResource backColor}"/>
+    </Style>
+</ResourceDictionary>
